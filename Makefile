@@ -1,6 +1,6 @@
 # Makefile for crc
 
-crc: main.o crcy.o crcl.o dstruct.o
+crc.app: main.o crcy.o crcl.o dstruct.o
 	g++ -DEXTERNC -I/. crcl.o  crcy.o dstruct.o main.o -o $@
 	
 crcl.o: crc.l

@@ -15,3 +15,13 @@
 *.exe
 *.out
 *.app
+
+# Bison
+*.tab.*
+
+# GNU flex
+*.yy.c
+
+# Output
+*.output
+output_crc.cpp
